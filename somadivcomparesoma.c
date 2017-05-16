@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 
-/*função para percorrer vetor e encontrar a seguinte característica: somadivisores de (y) = x && somadivisores (x) = y/*
-
+//função para percorrer vetor e encontrar a seguinte característica: somadivisores de (y) = x && somadivisores (x) = y conhecida como números amigos
 
 
  
