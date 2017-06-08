@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int fat (int, int);
+
+int main () {
+    
+int a = 3, size =5;
+ int i;
+    
+    for (i=a; i<a+size; i++) {
+        
+        int fatorial = 1;
+        
+        fatorial = fat (fatorial,i);    
+        
+        
+       printf ("%d ",fatorial);    
+        }
+      }
+   int fat (int fatorial, int i) {
+         fatorial = fatorial*i;
+          if (i >1) {
+             i--;
+              fatorial= fat (fatorial,i);    
+               }
+           
+             else 
+              return fatorial;
+         }
+         
+         
